@@ -1,0 +1,864 @@
+@media (max-width: 1000px) {
+
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ header-section-contant ------------------------------------------------------------------------------------------------------------------------------*/
+    .nav-bar-elements {
+        display: none;
+    }
+
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------end-header-section-contant ------------------------------------------------------------------------------------------------------------------------------*/
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------hero-bg-contants-aa12 ------------------------------------------------------------------------------------------------------------------------------*/
+    .hero-bg-contants-aa12 {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .bg-hero-elements {
+        color: var(--wp--preset--color--white);
+        margin-top: 220px;
+    }
+
+    .bg-contant-list .h5-contant-list {
+        margin: 7px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .bg-contant-list .h2-contant-list {
+        font-size: 10vmin;
+        margin-bottom: 5px;
+        font-family: var(--font-fammily-cormortant);
+        font-weight: 600;
+        width: 900px;
+    }
+
+    .bg-contant-list .p-contant-list {
+        font-size: 14px;
+        font-weight: 300;
+        width: 800px;
+
+    }
+
+    .bg-contant-list .ctn {
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+
+    .bg-contant-list .ctn:hover {
+        background-color: var(--back-color-white);
+        transform: translateX(2px);
+        color: #000000;
+    }
+
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------end-hero-bg-contants-aa12------------------------------------------------------------------------------------------------------------------------------*/
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------start-popular-item-aa13 -----------------------------------------------------------------------------------------------------------------------------*/
+    .popular-item-aa13 {
+        padding: 0px 3.5%;
+        background-color: var(--back-color-white);
+        width: 100%;
+    }
+
+    .popular-title {
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .h2-popular {
+        font-size: 5.6vmin;
+        font-family: var(--font-fammily-cormortant);
+        font-weight: 700;
+
+    }
+
+    .popular-row-contants {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .popular-col-item {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+    }
+
+    .h4-img-popular {
+        font-size: 2.2vmin;
+        color: #000000;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+
+    .h3-img-popular {
+        font-size: 2.2vmin;
+        font-weight: 600;
+        color: #232222;
+        letter-spacing: 0.5px;
+    }
+
+    .size-elements .size-item li {
+        padding: 4px 9px;
+        border: 1px solid #4a4a4a20;
+        background-color: #eeeded75;
+        font-size: 11px;
+
+    }
+
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------end-popular-item-aa13 -------------------------------------------------------------------------------------------------------------------------------*/
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------start-explore-elements-aa14 -------------------------------------------------------------------------------------------------------------------------------*/
+    .explore-elements-aa14 {
+        padding: 0% 3.5%;
+        margin-top: 120px;
+        width: 100%;
+        height: 120vh;
+
+    }
+
+    .exlore-contant {
+        width: 100%;
+        max-width: 1120px;
+        margin: auto;
+    }
+
+    .img-explore-item {
+        width: 600px;
+    }
+
+    .img-explore {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------end-explore-elements-aa14 ---------------------------------------------------------------------------------------------------------------------------------*/
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------end-explore-elements-aa14 ---------------------------------------------------------------------------------------------------------------------------------*/
+    .work-aa15-elements {
+        margin-top: 140px;
+        padding: 0px 4%;
+        width: 100%;
+        background-color: #fffbfb;
+    }
+
+    .work-aa15-contant {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 3vw;
+    }
+
+    .work-heading-iterm {
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 25px 25px 25px;
+        width: 500px;
+        height: 290px;
+    }
+
+    .h4-aa15 {
+        font-size: 1.3vw;
+        font-weight: 400;
+        margin: 0px 0px;
+    }
+
+    .h2-aa15 {
+        font-size: 5.2vmin;
+        width: 500px;
+        font-weight: 800;
+    }
+
+    .p-aa15 {
+        font-size: 1.6vmin;
+        font-weight: 700;
+        color: #00000075;
+        line-height: 2.5vmin;
+
+    }
+
+    .more-ctn .ctn {
+        padding: 12px 30px;
+        border-radius: 3px;
+        font-size: 1.6vh;
+        font-weight: 600;
+        border: 1px solid rgb(0, 0, 0);
+        width: 130px;
+    }
+
+    .work-aa15-elements .line {
+        margin-top: 40px;
+    }
+
+    .work-aa15-img {
+        min-width: 200px;
+    }
+
+    /*----------------------------------------------------------------------------------------------------------------------------------------------------------- new-poduct-aa16 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    /*----------------------------------------------------------------------------------------------------------------------------------------------------------- new-poduct-aa16 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    .new-poduct-aa16 {
+        padding: 0px 3.5%;
+        width: 100%;
+        margin-top: 90px;
+        margin-bottom: 100px;
+    }
+
+    .new-product-title .h2-aa16 {
+        margin: auto;
+        text-align: center;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 3.5vw;
+        color: #000000;
+    }
+
+    .h4-pod {
+        font-size: 2.5vmin;
+        font-weight: 600;
+    }
+
+    .p-pod {
+        font-size: 1.8vmin;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+
+    .h5-pod {
+        font-size: 13px;
+        font-weight: 700;
+
+    }
+
+    /*-----------------------------------------------------------------------------------------------------------------------------------------------------------end-new-poduct-aa16 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------------------------------------------------------------------page-6 feedback-cut--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    .feedback-cut {
+        padding: 0px 3.5%;
+        background-image: linear-gradient(10deg, rgba(0, 0, 0, 0.5) 100%, #00000000 10%), url(./img/bg-03.jpg);
+        height: 100vh;
+        width: 100%;
+    }
+
+    .feedback-cust-bg-aa17 {
+        display: flex;
+        gap: 2vw;
+    }
+
+    .feedback-elements {
+        color: var(--back-color-white);
+        background-color: #fbfbfb;
+        opacity: .7;
+        padding: 20px 20px 20px 20px;
+        box-shadow: 70px 25px 25px 0px rgba(0, 0, 0, 0.15);
+
+    }
+
+    .feedback-aa17 {
+        color: #000000;
+        font-size: 1.5vh;
+        line-height: 2.2vh;
+        width: 410px;
+    }
+
+    .ctn-feed {
+        padding: 11px 20px;
+        border: 1px solid black;
+        font-family: var(--mont-font-family);
+        font-size: 13px;
+
+    }
+
+    /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------end-page-6 feedback-cut---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------services-elements-list-aa18---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    .services-elements-list-aa18 {
+        padding: 0% 3.5%;
+        width: 100%;
+    }
+
+    .service-item i {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .service-item {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .h3-aa18 {
+        font-weight: 700;
+        font-size: 2.4vmin;
+    }
+
+    .p-aa18 {
+        font-size: 13px;
+        width: 180px;
+        font-weight: 400;
+    }
+}
+
+
+@media (max-width: 950px) {
+
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------end-explore-elements-aa14 ---------------------------------------------------------------------------------------------------------------------------------*/
+
+    .work-heading-iterm {
+        padding: 20px 20px 20px 20px;
+        width: 470px;
+        height: 300px;
+
+    }
+
+    .h4-aa15 {
+        font-weight: 500;
+        font-size: 1.2vw;
+    }
+
+    .h2-aa15 {
+        font-size: 5vmin;
+        width: 400px;
+        font-weight: 800;
+        margin: 0px 0px;
+    }
+
+    .p-aa15 {
+        font-size: 1.6vmin;
+        font-weight: 800;
+        line-height: 2.5vmin;
+        padding-right: 30px;
+        margin: 0px 0px;
+
+    }
+
+    .more-ctn .ctn {
+        padding: 12px 30px;
+        border-radius: 3px;
+        font-size: 1.6vh;
+        font-weight: 600;
+        border: 1px solid rgb(0, 0, 0);
+        width: 130px;
+    }
+
+    .work-aa15-img {
+        min-width: 240px;
+    }
+
+    /*----------------------------------------------------------------------------------------------------------------------------------------------------------- new-poduct-aa16 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------------------------------------------------------------------end-new-poduct-aa16 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------------------------------------------------------------------page-6 feedback-cut--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    .feedback-cut {
+        padding: 0px 3.5%;
+    }
+
+    .feedback-elements {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .feedback-aa17 {
+        color: #000000;
+        font-size: 1.4vh;
+        line-height: 2.2vh;
+        width: 360px;
+    }
+
+    .feedback-icon i {
+        font-size: 15px;
+    }
+
+    .ctn-feed {
+        padding: 10px 20px;
+        font-size: 12px;
+
+    }
+
+    /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------end-page-6 feedback-cut---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------services-elements-list-aa18---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+    .service-item i {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .service-item {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .h3-aa18 {
+        font-weight: 700;
+        font-size: 2.4vmin;
+    }
+
+    .p-aa18 {
+        font-size: 13px;
+        width: 150px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 850px) {
+
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ header-section-contant ------------------------------------------------------------------------------------------------------------------------------*/
+    .header-elements-aa11 {
+        position: fixed;
+        background-color: #262626;
+        padding: 10px 9%;
+        width: 100%;
+        opacity: .6;
+        height: 65px;
+    }
+
+    .logo-elements-aa11 .h4-logo {
+        font-size: 3vmin;
+        opacity: .8;
+        margin-left: 40px;
+    }
+
+    .logo-elements-aa11 .p-logo {
+        font-size: 3.3vmin;
+        font-family: var(--mont-font-family);
+        font-weight: 800;
+        opacity: .90;
+    }
+
+    .line {
+        margin: auto auto;
+        height: 2px;
+        width: 50px;
+    }
+
+    .search-bar-icon i {
+        font-size: 16px;
+        font-weight: 600;
+        color: #ffffff;
+        font-family: var(--font-fammily-cormortant);
+    }
+
+    .add-to-cart-icon i {
+        font-size: 16px;
+        font-weight: 600;
+        color: #ffffff;
+    }
+
+    .login-sec .ctn {
+        margin-left: 10px;
+        padding: 10px 30px;
+        font-weight: 500;
+        color: whitesmoke;
+        border-radius: 50px;
+    }
+
+    .login-sec .ctn {
+        margin-left: 20px;
+        padding: 10px 30px;
+        border: 1px solid var(--wp--preset--color--cyan-bluish-gray);
+        font-family: var(--mont-font-family);
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        transition: 0.4s;
+        background-color: var(--back-color-white);
+    }
+
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------end-header-section-contant ---------------------------------------------------------------------------------------------------------------------------*/
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------start-hero-bg-contants-aa12 ---------------------------------------------------------------------------------------------------------------------------*/
+    .hero-bg-contants-aa12 {
+        width: 100vw;
+        height: 100vh;
+        padding: 0px 3.5%;
+    }
+
+    .bg-hero-elements {
+        color: var(--wp--preset--color--white);
+        margin-top: 260px;
+    }
+
+    .bg-contant-list .h5-contant-list {
+        margin: 7px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .bg-contant-list .h2-contant-list {
+        font-size: 9vmin;
+        width: 700px;
+    }
+
+    .bg-contant-list .p-contant-list {
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 500;
+        width: 700px;
+        line-height: 21px;
+    }
+
+    .bg-contant-list .ctn {
+        padding: 11px 25px;
+        font-size: 14px;
+    }
+
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------end-hero-bg-contants-aa12 -----------------------------------------------------------------------------------------------------------------------------*/
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------start-popular-item-aa13 -----------------------------------------------------------------------------------------------------------------------------*/
+    .popular-item-aa13 {
+        padding: 0% 3.5%;
+        background-color: var(--back-color-white);
+        margin-top: 70px;
+        width: 100%;
+    }
+
+    .popular-title {
+        margin-bottom: 60px;
+        text-align: center;
+        font-style: italic;
+    }
+
+    .h2-popular {
+        font-size: 5vmin;
+    }
+
+    .img-contants-heading {
+        font-family: var(--mont-font-family);
+    }
+
+    .h4-img-popular {
+        font-size: 2.1vmin;
+        color: #000000;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+
+    .h3-img-popular {
+        font-size: 1.8vmin;
+        font-weight: 700;
+    }
+
+    .size-elements .size-item li {
+        padding: 5px 9px;
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .size-item li a {
+        color: #000000;
+    }
+
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------end-explore-elements-aa14 ---------------------------------------------------------------------------------------------------------------------------------*/
+
+    .work-heading-iterm {
+        padding: 20px 20px 20px 20px;
+        width: 450px;
+        height: 300px;
+
+    }
+
+    .work-aa15-contant {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 20px;
+        gap: 1px;
+    }
+
+    .work-aa15-img {
+        width: 210px;
+    }
+
+    /*-----------------------------------------------------------------------------------------------------------------------------------------------------------page-6 feedback-cut--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    .feedback-cut {
+        padding: 0px 3.5%;
+    }
+
+    .feedback-cust-bg-aa17 {
+        flex-direction: column;
+        gap: 3.3vw;
+    }
+
+    .feedback-elements {
+        padding: 40px 60px 40px 60px;
+    }
+
+    .feedback-aa17 {
+        color: #000000;
+        font-size: 1.6vh;
+        line-height: 2.2vh;
+        width: 390px;
+    }
+
+    .feedback-icon i {
+        font-size: 15px;
+    }
+
+    .ctn-feed {
+        padding: 10px 20px;
+        font-size: 12px;
+
+    }
+
+    /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------end-page-6 feedback-cut---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------services-elements-list-aa18---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    .service-col {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+
+    .service-item {
+        padding: 20px 40px 20px 40px;
+    }
+
+    .service-item i {
+        font-size: 21px;
+        font-weight: 700;
+        color: var(--wp--preset--color--luminous-vivid-orange);
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .h3-aa18 {
+        font-family: var(--mont-font-family);
+        font-weight: 600;
+        font-size: 3vmin;
+        margin-bottom: 5px;
+    }
+
+    .p-aa18 {
+        font-size: 14px;
+        font-family: var(--font-fammily-cormortant);
+        font-weight: 400;
+        width: 230px;
+        color: #000000;
+    }
+}
+
+@media (max-width: 750px) {
+
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------start-hero-bg-contants-aa12 ---------------------------------------------------------------------------------------------------------------------------*/
+    .bg-contant-list .h5-contant-list {
+        margin: 7px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .bg-contant-list .h2-contant-list {
+        font-size: 8vmin;
+        width: 700px;
+    }
+
+    .bg-contant-list .p-contant-list {
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 500;
+        width: 600px;
+        line-height: 21px;
+    }
+
+    .h4-img-popular {
+        font-size: 2.1vmin;
+        color: #000000;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+
+    .h3-img-popular {
+        font-size: 1.8vmin;
+        font-weight: 700;
+    }
+
+    .size-elements .size-item li {
+        padding: 5px 6px;
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .size-item li a {
+        color: #000000;
+    }
+
+
+    .work-aa15-contant {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+
+    .work-heading-iterm {
+        display: flex;
+        padding: 30px 30px 30px 30px;
+        justify-content: center;
+        flex-direction: column;
+        width: 540px;
+        height: 330px;
+    }
+
+    .h4-aa15 {
+        font-size: 2.3vw;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .h2-aa15 {
+        font-size: 6vmin;
+        width: 550px;
+        font-weight: 800;
+        margin-bottom: 10px;
+
+    }
+
+    .p-aa15 {
+        font-size: 1.7vmin;
+        font-weight: 700;
+        color: #00000075;
+        margin-bottom: 20px;
+        line-height: 2vh;
+        width: 450px;
+    }
+
+    .work-aa15-img {
+        width: 400px;
+        display: none;
+    }
+
+    /*----------------------------------------------------------------------------------------------------------------------------------------------------------- new-poduct-aa16 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    .new-product-title {
+        margin-bottom: 50px;
+    }
+
+    .new-product-title .h2-aa16 {
+        margin: auto;
+        text-align: center;
+        font-family: var(--font-fammily-cormortant);
+        font-style: italic;
+        font-weight: 700;
+        font-size: 4.6vw;
+        color: #000000;
+    }
+
+    .row-product-container .container-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        gap: 2vh;
+        row-gap: 40px;
+
+    }
+
+    .img-product {
+        width: 290px;
+        height: auto;
+        object-fit: cover;
+        margin: 0px 0px 0.6rem;
+    }
+
+    .h4-pod {
+        font-family: var(--mont-font-family);
+        color: #5e5555;
+        font-size: 2.7vmin;
+        margin-bottom: 3px;
+        font-weight: 600;
+    }
+
+    .p-pod {
+        font-size: 1.9vmin;
+        font-weight: 600;
+        color: #000000;
+        margin-bottom: 4px;
+        font-family: var(--mont-font-family);
+    }
+
+    .h5-pod {
+        font-size: 13px;
+        font-family: var(--mont-font-family);
+        font-weight: 700;
+        color: #181717;
+    }
+
+    /*-----------------------------------------------------------------------------------------------------------------------------------------------------------end-new-poduct-aa16 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------services-elements-list-aa18---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    .service-col {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+
+    .service-item {
+        padding: 20px 30px 20px 30px;
+    }
+
+    .service-item i {
+        font-size: 21px;
+        font-weight: 700;
+        color: var(--wp--preset--color--luminous-vivid-orange);
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .h3-aa18 {
+        font-family: var(--mont-font-family);
+        font-weight: 600;
+        font-size: 3vmin;
+        margin-bottom: 5px;
+    }
+
+    .p-aa18 {
+        font-size: 14px;
+        font-family: var(--font-fammily-cormortant);
+        font-weight: 400;
+        width: 230px;
+        color: #000000;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------start-hero-bg-contants-aa12 ---------------------------------------------------------------------------------------------------------------------------*/
+    .bg-contant-list .h5-contant-list {
+        margin: 7px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .bg-contant-list .h2-contant-list {
+        font-size: 7vmin;
+        width: 600px;
+    }
+
+    .bg-contant-list .p-contant-list {
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 500;
+        width: 530px;
+        line-height: 21px;
+    }
+
+    /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------start-popular-item-aa13 -----------------------------------------------------------------------------------------------------------------------------*/
+    .popular-col-item {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        gap: 2.2vh;
+        row-gap: 40px;
+        justify-items: center;
+    }
+
+    .img-popular {
+        width: 270px;
+        height: auto;
+        object-fit: cover;
+        margin: 0 0 1rem;
+    }
+
+    .h4-img-popular {
+        font-size: 2.5vmin;
+        color: #000000;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+
+    .h3-img-popular {
+        font-size: 2.2vmin;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+    }
+}
